@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.0241e2eb.css",
+    "main.js": "/react-app/static/js/main.b14bebd8.js",
+    "static/media/news.png": "/react-app/static/media/news.a1c663087ee98006fa04.png",
+    "static/media/clock.png": "/react-app/static/media/clock.9e2582cf0c2be02dbb51.png",
+    "index.html": "/react-app/index.html",
+    "main.0241e2eb.css.map": "/react-app/static/css/main.0241e2eb.css.map",
+    "main.b14bebd8.js.map": "/react-app/static/js/main.b14bebd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0241e2eb.css",
+    "static/js/main.b14bebd8.js"
+  ]
+}
