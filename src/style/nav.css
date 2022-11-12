@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=IBM+Plex+Sans:wght@500;600;700&family=Public+Sans:wght@300;400;500;600&display=swap');
+.nav-link{
+  color: #9b9b9b !important;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 500;
+}
+.nav-link:hover{
+  color: #c7c7c7 !important;
+  background-color: rgba(132, 214, 255, 0.2);
+  border-bottom: 1.5px solid #0857ce;
+  border-radius: 3px;
+}
+.nav-item{
+  padding: 3px;
+}
+.navbar-brand img{
+  width: 30px;
+  margin-left: 10px;
+  margin-bottom: 9px;
+}
+.navbar-toggler-icon{
+  background-image : url("../images/NavToggler.png");
+} 
+.logoText{
+  color:aliceblue;
+  margin-left: 10px;
+  font-size: 23px;
+  font-family: 'Alatsi', sans-serif;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Public+Sans:wght@300;400;500;600&display=swap');
+.Card{
+    width: 85%;
+    height: 200px;
+    background-color: rgb(22, 22, 22);
+    margin: 5px 0;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #00b3fa38;
+}
+.ImagePart{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 100%;
+}
+.ContentPart{
+    padding: 1px 10px;
+}
+.TopContent{
+    height: 75%;
+}
+.TitlePart{
+    height: 45%;
+    margin: 0;
+    border-bottom: 1px solid #00b3fa38;
+    display: flex;
+    align-items: center;
+}
+.TextPart{
+    display: flex;
+    align-items: flex-end;
+    height: 55%;
+    margin: 0;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(231, 231, 231);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h3{
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    font-family: 'Public Sans', sans-serif;
+}
+.Publisher{
+    color: grey;
+    font-size: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.Publisher img{
+    width: 13px;
+}
+.BottomContent{
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    align-items: flex-end;
+}
+.BottomContent a{
+    padding: 2px 5px;
+    height: 25px;
+    font-size: small;
+    background-color: #083365;
+    color: #CFF5E7;
+    font-weight: 600;
+    /* border: 0.1 solid #cff5e7b0; */
+    border: 1px solid #00b3fa52;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+@media screen and (max-width: 1250px) {
+    .Card {
+        width: 350px;
+        height: 450px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img {
+        width: 100%;
+    }
+    .ImagePart{
+        height: 35%;
+    }
+    .ContentPart {
+        height: 65%;
+    }
+    .TopContent {
+        padding-top: 5px;
+        height: 85%;
+    }
+    .BottomContent {
+        height: 15%;
+    }
+}
